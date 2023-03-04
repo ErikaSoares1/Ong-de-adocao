@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de adoção</title>
+    <link href="style2.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <nav class="menunav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="História.html">Quem somos?</a></li>
+            <li><a href="Cadastro.html">Fale Conosco!</a></li>
+            <li><a href="Cadastro2.html">Adote aqui</a></li>
+            <li><a href="Feedback.html">Feedback</a></li>
+            <li><a href="#">Nossos pets</a>
+                <ul>
+                    <li><a href="gatos.html">Gatos</a></li>
+                    <li><a href="cachorros.html">Cachorros</a></li>
+                </ul>
+            </li>
+        </ul>
+       </nav>
+
+
+<h3>Olá, ficamos muito contentes pela sua opção em adotar e por escolher um bichinho em nosso site &#128151;<br>  
+
+    Para adotar um dos nossos pets, é preciso ter mais de 20 anos, preencher este questionário, se acertada a adoção, assinar um termo de responsabilidade, além de nos mandar notícias dele de vez em quando. Esse é o processo padrão de adoção responsável utilizado por outras ONGs também.<br>
+    
+    Se desejar participar do processo, pedimos que responda às questões abaixo, que fazem parte do protocolo de adoção. O questionário é longo, mas o objetivo é evitar que ocorram posteriores devoluções, o que seria bem ruim para o bichinho adotado.<br>
+    
+    Então, por favor, responda todas as perguntas com cuidado e atenção. Analisaremos as suas respostas com cuidado e daremos um retorno assim que possível!</h3> 
+    <br><br><br>
+    <img src="logo.jpg">
+    <br><br><br>
+    <div class="form">
+        <form action="#">
+            <h2>Preencha o formulário abaixo!</h2><br><br><br>
+            <div class="formata">
+                <label for="txtnome">Nome completo:</label>
+                <input type="text" id="txtnome" size="50" maxlength="38" placeholder="Digite seu nome completo" required>
+                </div>
+
+                <div class="formata">
+                    <label for="txtanimal">Animal desejado:</label>
+                    <input type="text"  id="txtanimal" size="50" maxlength="20" placeholder="Digite o nome do pet" required >
+                </div>
+
+                <div class="formata">
+                    <label for="txtemail">E-mail:</label>
+                <input type="email"  id="txtemail" size="50"  maxlength="48" placeholder="Digite seu e-mail" required>
+                </div>
+
+                <div class="formata">
+                    <label for="txtnum">Telefone de contato:</label>
+                        <input type="tel" id="txtnum" size="25" maxlength="11" placeholder="Digite seu número" required>
+                        </div>
+
+                        <div class="formata">
+                            <label for="txtdate">Data de nascimento:</label>
+                                <input type="date" id="txtdate"  required>
+                                </div>
+
+                                <div class="formata">
+                                    <label for="endereço">Endereço completo(rua,número,complemento):</label>
+                                    <input type="text"  id="txtend" placeholder="Seu endereço completo" required>
+                                </div>
+
+                                <div class="formata">
+                                    <label for="bairro">Bairro:</label>
+                                    <input type="text"  id="txtbai" placeholder="Seu Bairro" required>
+                                </div>
+
+                                <div class="formata">
+                                    <label for="cidade">Cidade:</label>
+                                    <input type="text"  id="txtcid" placeholder="Sua Cidade" required>
+                                </div>
+                        </div><br> <br> <br>
+                         <h2>Estamos quase lá, responda as perguntas a seguir &#128513; </h2></p> <br> <br>
+
+                            <p>Você está adotando o pet para ser:</p>
+                            <div class="formata">
+                            <select id="funçao">
+                                    <option selected="selected" value="c"> Companhia</option>
+                                    <option  value="G">Guarda </option>
+                                    <option value="o">Outro</option>
+                                    </select>
+                              </div><br><br>
+
+                              <p>Mora em casa ou apartamento?</p>
+                                <div class="formata">
+                                <select id="mora">
+                                        <option selected="selected" value="c"> Casa</option>
+                                        <option  value="A">Apartamento</option>
+                                        </select>
+                                  </div><br><br>
+
+                                  <p>Você tem certeza que é permitido animais no imovél?
+                                    <div class="formata">
+                                    <select id="permitido">
+                                            <option selected="selected" value="n"> Não</option>
+                                            <option  value="S">Sim,já verifiquei e é permitido! </option>
+                                            </select>
+                                      </div>
+
+                                      <div class="formata">
+                                        <p>Há outros animais na casa?se sim,quais?</p>
+                                        <input type="text" id="outros" required>
+                                      </div>
+
+                                      <div class="formata">
+                                        <p>Tem certeza de que não está adotando por impulso, só porque o cãozinho ainda é filhote, por causa da raça <br>
+                                            ou por que seu filho ou filha insistiu para ganhar um?</p>
+                                        <input type="text" id="certeza" required>
+                                      </div>
+
+                                      <div class="formata">
+                                        <p> Poderá arcar com os custos de ração de qualidade, vermifugação, vacinação, castração e assistência veterinária? <br>
+                                            Qual seria sua atitude se ele adoecesse ou sofresse algum acidente?</p>
+                                        <input type="text" id="certeza" required>
+                                      </div>
+
+                                      <div class="enviar-button">
+                                        <button class="botao" type="submit">Enviar </button>
+                                    </div>
+                         </div>
+        </form>
+    </div><br>
+    
+         <h5>Agora é só aguardar o nosso retorno &#128516; </h5>
+
+    
+</body>
+</html>
