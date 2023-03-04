@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;}
+
+body{
+    background-image: linear-gradient(to bottom,  rgb(218, 149, 218) , rgb(185, 83, 185), rgb(151, 41, 151),rgb(102, 21, 102), rgb(33, 87, 94)   );
+}
+
+h3 {
+    text-align: center;
+    color: rgb(110, 32, 108);
+    font-size: 18px;
+    margin-top: 20px;
+   text-shadow: 2px 2px 2px white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    text-align: center;
+    size: 10px;
+    display: block;
+    width: 15%;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px dashed rgb(134, 84, 9);
+}
+
+.formata{
+    text-align: center;
+     border-radius: 6px;
+  margin-bottom: 2em;
+}
+
+#txtnome{
+    size: 80%;
+    border-radius: 4px;
+}
+
+
+input  {
+    border-radius: 5px;
+    padding: 8px;
+    width: 40%;
+    box-shadow: 3px 3px 3px rgb(77, 16, 77);
+    background-color: #e0bfdf;
+}
+
+input:hover{
+    background-color: #7d17ac;
+}
+
+
+
+#txtnum{
+    width: 22%;
+}
+
+
+
+#txtdate{
+    width: 15%;
+}
+
+
+#txtend{
+    width: 30%;
+}
+
+
+
+#txtbai {
+    width: 34%;
+}
+
+
+
+#txtcid{
+    width: 34%;
+}
+
+
+
+h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #862daf;
+    text-shadow: 2px 2px 2px white;
+    font-size: 40px;
+}
+
+#funcao{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(245, 233, 248);
+    font-size: 20px;
+    text-shadow: 2px 2px 2px #571c72;
+}
+
+
+select{
+    width: 25%;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: #dbb7ec;
+}
+select:hover{
+    background-color: #7d17ac;
+}
+
+#txtemail:hover{
+    background-color: #7d17ac;
+}
+
+option{
+    text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+
+}
+
+.enviar-button{
+    text-align:center;
+}
+
+.botao{
+    padding: 8px 30px;
+    color: #fefbff;
+    background: rgb(174, 121, 209);
+    border-radius: 4px;
+    user-select: none;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.botao:hover{
+    background-color: #7d17ac;
+}
+
+h5{text-align: center;
+    color: aliceblue;
+  
+    margin-top: 0px;}
+
+    label{
+        color: aliceblue;
+        text-shadow: 2px 2px 2px black;
+        font-size: 24px ;
+    }
+
+    /*menu navegação*/
+
+    .menunav{
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    .menunav ul{
+         list-style-type: none;
+         padding: 0;
+    }
+    
+    .menunav ul{
+        background-color: black;
+        
+    }
+    
+    .menunav ul li{
+        display: inline;
+        position: relative;
+        padding: 0 14px;
+       
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
+    }
+    
+    .menunav ul li a{
+       color: white;
+       text-shadow: 4px 4px 4px rgb(172, 82, 199);
+       text-decoration: none;
+       display: inline-block;
+       padding: 20px;
+       transition:background .3s;
+       cursor: pointer;
+      
+    }
+    
+    .menunav ul li a:hover{
+        background-color: #5de7dc;
+        border-radius: 6px;
+    }
+    
+    /*sub menu*/
+    .menunav ul ul{
+        display: none;
+        left: 0;
+        position: absolute;
+    
+    }
+    
+    .menunav ul li:hover ul{
+        display: block;
+    
+    }
+    
+    .menunav ul ul{
+        width: 150px;
+    }
+    
+    .menunav ul ul li a{
+        display: block;
+    }
+    
+    
